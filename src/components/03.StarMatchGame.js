@@ -126,6 +126,7 @@ const StarMatchGame = (props) => {
     <>
       <div className="header">{props.title}</div>
       <Game key={gameId} startNewGame={() => setGameId(gameId + 1)} />
+      <hr />
     </>
   );
 };

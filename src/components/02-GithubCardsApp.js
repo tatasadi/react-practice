@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // GitHub usernames: gaearon, sophiebits, sebmarkbage, bvaughn
 
@@ -15,7 +15,7 @@ class Card extends React.Component {
     const profile = this.props;
     return (
       <div className="github-profile">
-        <img src={profile.avatar_url} />
+        <img src={profile.avatar_url} alt="avatar" />
         <div className="info">
           <div className="name">{profile.name}</div>
           <div className="company">{profile.company}</div>
@@ -67,6 +67,7 @@ class GithubCardsApp extends React.Component {
         <div className="header">{this.props.title}</div>
         <Form onSubmit={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
+        <hr />
       </div>
     );
   }
