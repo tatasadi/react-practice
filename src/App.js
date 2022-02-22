@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import Basics from "./components/01-Basics";
+import GithubCardsApp from "./components/02-GithubCardsApp";
+import StarMatchGame from "./components/03.StarMatchGame";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to React Practice!</h1>
+      <Basics />
+      <GithubCardsApp title="The GitHub Cards App" />
+      <StarMatchGame title="Star Match Game" />
     </div>
   );
 }
