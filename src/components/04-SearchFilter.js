@@ -31,6 +31,7 @@ const SearchFilter = (props) => {
           <div key={item}>{item}</div>
         ))}
       </div>
+      <hr />
     </>
   );
 };

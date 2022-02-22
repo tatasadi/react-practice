@@ -3,6 +3,7 @@ import Basics from "./components/01-Basics";
 import GithubCardsApp from "./components/02-GithubCardsApp";
 import StarMatchGame from "./components/03.StarMatchGame";
 import SearchFilter from "./components/04-SearchFilter";
+import Accordion from "./components/05.Accordion";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <GithubCardsApp title="The GitHub Cards App" />
       <StarMatchGame title="Star Match Game" />
       <SearchFilter title="Search Filter" />
+      <Accordion title="Accordion" />
     </div>
   );
 }
