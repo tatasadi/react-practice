@@ -4,6 +4,7 @@ import GithubCardsApp from "./components/02-GithubCardsApp";
 import StarMatchGame from "./components/03.StarMatchGame";
 import SearchFilter from "./components/04-SearchFilter";
 import Accordion from "./components/05.Accordion";
+import ImageSlider from "./components/06-ImageSlider";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <StarMatchGame title="Star Match Game" />
       <SearchFilter title="Search Filter" />
       <Accordion title="Accordion" />
+      <ImageSlider title="Image Slider" />
     </div>
   );
 }
