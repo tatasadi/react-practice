@@ -5,6 +5,8 @@ import StarMatchGame from "./components/03.StarMatchGame";
 import SearchFilter from "./components/04-SearchFilter";
 import Accordion from "./components/05.Accordion";
 import ImageSlider from "./components/06-ImageSlider";
+import Checkliste from "./components/07-Checkliste";
+import LoginForm from "./components/08-LoginForm";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <SearchFilter title="Search Filter" />
       <Accordion title="Accordion" />
       <ImageSlider title="Image Slider" />
+      <Checkliste title="Checkliste" />
+      <LoginForm title="Login Form" />
     </div>
   );
 }
